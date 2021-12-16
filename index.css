@@ -39,7 +39,7 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-      color: rgb(247, 140, 161);
+      color: #941818;
    opacity: 0.6;
   }
   .icon{
@@ -87,6 +87,38 @@ ul {
         letter-spacing: 0.5em;
     }
 }
+.btn-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn{
+    background-color: #8a2e2e; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+/* background-color: rgb(241, 114, 28); Green */
+   /* border: none;
+  width: 50px;
+  height: 50px; */
+   /* width: 40px;
+   color:#fff;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none; 
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 5px;  */
+
+}
   .reviews{
       display: flex;
       justify-content: space-between;
@@ -121,7 +153,7 @@ ul {
 
   .items{
       height: 50vh;
-      background-color: lightpink;
+      background-color: rgb(248, 220, 224);
      text-align: center;
      padding: 2em;
      line-height: 23px;
@@ -172,7 +204,8 @@ footer{
     text-align: center;
     font-size: 15px;
     height: 40px;
-    padding: 20px;
+    padding: 15px;
+    font-weight: bold;
 }
 
 
