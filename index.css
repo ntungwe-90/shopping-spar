@@ -58,12 +58,31 @@ ul {
   section h1{
       text-align: center;
       color: blanchedalmond;
+      animation: flip 1s alternate ease-in-out;
   }
+
+  p{
+    animation: flip 3s;
+}
+@keyframes flip{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: rotateX(360deg);
+        letter-spacing: 0.5em;
+    }
+}
   .reviews{
       display: flex;
       justify-content: space-between;
       padding: 8px;
       
+  }
+
+  #line{
+      border-bottom: 1px solid black;
   }
 
   .container{
