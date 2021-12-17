@@ -14,6 +14,8 @@ header{
     display: flex;
     height: 40px;
     padding:10px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
     
 }
 
@@ -65,7 +67,7 @@ ul {
   section h1{
       text-align: center;
       font-size: 30px;
-      color: rgb(241, 151, 15);
+      color:#fff;
       font-weight: bold;
       animation-name: flip;
       animation-duration: 4s;
@@ -105,18 +107,6 @@ ul {
     font-size: 16px;
     text-align: center;
     border-radius: 5px;
-/* background-color: rgb(241, 114, 28); Green */
-   /* border: none;
-  width: 50px;
-  height: 50px; */
-   /* width: 40px;
-   color:#fff;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none; 
-   display: inline-block;
-   font-size: 16px;
-   border-radius: 5px;  */
 
 }
   .reviews{
@@ -148,10 +138,12 @@ ul {
     padding: 0.5rem;
     object-fit: cover;
     border-radius: 20px;
+    border: 1px solid pink;
    
   }
 
   .items{
+    position: relative;
       height: 50vh;
       background-color: rgb(248, 220, 224);
      text-align: center;
@@ -180,6 +172,7 @@ ul {
 
 .others{
     display: flex;
+    
     justify-content: center;
     align-items: center;
     gap: 5px;
@@ -189,11 +182,28 @@ ul {
     height: 100px;
     width: 100px;
     margin-bottom: 12px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .others img:hover{
     height: 150px;
     width: 150px;
+}
+.prev{
+    position: absolute;
+    top: 60%;
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.next{
+    position: absolute;
+    top: 60%;
+    margin-left: 1150px;
+    font-size: 40px;
+    font-weight: bold; 
 }
 .social-media{
     height: 20px;
