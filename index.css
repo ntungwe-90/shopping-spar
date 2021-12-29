@@ -185,21 +185,26 @@ input:focus{
 
 .add{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     align-items: center;
     margin-top: -45px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     
+}
+.prices{
+    color: rgb(60, 44, 151);
+    font-weight: bolder;
 }
 
 #btn2{
     background-color:#8a2e2e ;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
     margin-top: -15px;
     transition:ease 0.35s ;
+    margin-left: 35px;
 }
 
 #btn2:hover{
@@ -210,6 +215,7 @@ input:focus{
       display: flex;
       justify-content: space-between;
       padding: 8px;
+      font-weight: bold;
       
   }
 
@@ -289,22 +295,34 @@ input:focus{
 .others img:hover{
     height: 150px;
     width: 150px;
-}
-.prev{
-    position: absolute;
-    top: 60%;
-    margin-left: 10px;
-    font-size: 40px;
-    font-weight: bold;
+
+
 }
 
-.next{
-    position: absolute;
-    top: 60%;
-    margin-left: 1150px;
-    font-size: 40px;
-    font-weight: bold; 
+.prev{
+    font-weight: bolder;
+    font-size: 30px;
 }
+.next{
+    font-weight: bolder;
+    font-size: 30px;   
+}
+/* .prev{
+    position: absolute;
+    top: 60%; */
+    /* margin-left: -355px; */
+    /* font-size: 40px;
+    font-weight: bold;
+} */
+
+/* .next{
+    position: absolute;
+    top: 60%; */
+    /* margin-left: 335px; */
+    /* margin-left: 1150px; */
+    /* font-size: 40px;
+    font-weight: bold; 
+} */
 .social-media{
     height: 20px;
     width: 20px;
